@@ -1,0 +1,199 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;  /* Centers vertically */ /* Ensure correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.sos-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sos-container { /* Ensure the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sos-container {
+  background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+/* Card Style */
+.sos-card {
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+  width: 500px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+  /* Centering */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
+  /* Header with Icon */
+  .sos-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sos-icon {
+    font-size: 40px;
+    color: #6a0dad;
+  }
+  
+  .sos-header h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .sos-header p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  /* Input Field */
+  .sos-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .sos-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .get-location {
+    background: #007bff;
+    color: white;
+  }
+  
+  .get-location:hover {
+    background: #0056b3;
+  }
+  
+  .send-location {
+    background: #4c9aff;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .send-location:hover {
+    background: #357ae8;
+  }
+  
+  /* Address Text */
+  .sos-address {
+    background: #eef1f5;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  /* Map Container */
+  .sos-map {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .map {
+    width: 100%;
+    height: 100%;
+  }
+/* Change text color */
+h1, p, label, button {
+  color: #000; /* Black text */
+}
+
+/* Button text color */
+button {
+  color: white;
+  background-color: black; /* Black background */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Input field text color */
+input {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+}
+body {
+  color: #333; /* Default text color */
+}
+
+h1, h2, h3 {
+  color: #1500ff; /* Blue color for headings */
+}
+
+p {
+  color: #000; /* Black color for paragraphs */
+}
+
+button {
+  background-color: #000; /* Black button */
+  color: #fff; /* White text on button */
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff; /* Change button color on hover */
+}
+
+  

@@ -1,0 +1,98 @@
+/* Full Page Background */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3; /* Light Amazon-style background */
+  font-family: Arial, sans-serif;
+}
+
+/* Home Container */
+.home-container {
+  text-align: center;
+  padding-top: 80px; /* Push content below navbar */
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+/* Navbar (Amazon-style) */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Full width */
+  background-color: #131921; /* Amazon's dark blue/black navbar */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #232f3e; /* Darker blue shade on hover */
+  border-radius: 5px;
+}
+
+/* Search Bar (Optional) */
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+}
+
+.search-bar button {
+  background-color: orange;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* Styling for the welcome message */
+/* Center the welcome text */
+.welcome-text {
+  color: blue; /* Change color if needed */
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  /* Centering on the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust if needed */
+}
+.home-container {
+  background-image: url('/src/assets/img1.jpg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-text {
+  color: black; /* Adjust text color for contrast */
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow for readability */
+}
+
